@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DAB9"
+    tools:context=".DrinkActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:src="@drawable/green"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Green Tea"
+        android:textSize="25sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText"
+        android:layout_below="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="start"
+        android:ems="14"
+        android:text="Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process used to make oolong teas and black teas. Green tea originated in China, but its production and manufacture has spread to many other countries in Asia." />
+
+
+</RelativeLayout>

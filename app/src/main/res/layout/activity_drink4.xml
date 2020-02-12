@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DAB9"
+    tools:context=".DrinkActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:src="@drawable/andhra"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Andhra Food"
+        android:textSize="25sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText"
+        android:layout_below="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="start"
+        android:ems="14"
+        android:text="Telugu cuisine is a cuisine of South India native to the Telugu people from the states of Andhra Pradesh and Telangana. Generally known for its tangy, hot and spicy taste, the cooking is very diverse due to the vast spread of the people and varied topological regions."/>
+
+</RelativeLayout>

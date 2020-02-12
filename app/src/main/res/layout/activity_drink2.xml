@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DAB9"
+    tools:context=".DrinkActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:src="@drawable/cf"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Coffee"
+        android:textSize="25sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText"
+        android:layout_below="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="start"
+        android:ems="14"
+        android:text="Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. The genus Coffea is native to tropical Africa and Madagascar, the Comoros, Mauritius, and Réunion in the Indian Ocean.Coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, Indian subcontinent, and Africa. The two most commonly grown are C. arabica and C. robusta. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds  are roasted to varying degrees, depending on the desired flavor." />
+
+
+</RelativeLayout>
